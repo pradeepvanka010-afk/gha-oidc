@@ -1,4 +1,4 @@
-name: Terraform Dev Deploy
+name: terraform-aws-oidc
 on:
     push:
         branches:
