@@ -4,7 +4,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "gha-oidc-bucket"
+    bucket = "oidc-aws-gha-bucket"
     key = "prod/terraform.tfstate"
     region = "ap-south-1"
     
