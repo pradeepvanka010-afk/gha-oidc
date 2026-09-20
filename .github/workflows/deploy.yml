@@ -26,7 +26,7 @@ jobs:
             - name: AWS access using OIDC
               uses: aws-actions/configure-aws-credentials@v4
               with:
-                role-to-assume: arn:aws:iam::117272619630:role/gha-oidc-role
+                role-to-assume: arn:aws:iam::117272619630:role/odic-role
                 role-session-name: github-actions
                 aws-region: ap-south-1
             - name: Terraform init
@@ -52,7 +52,7 @@ jobs:
             - name: AWS access using OIDC
               uses: aws-actions/configure-aws-credentials@v4
               with:
-                role-to-assume: arn:aws:iam::117272619630:role/gha-oidc-role
+                role-to-assume: arn:aws:iam::117272619630:role/odic-role
                 role-session-name: github-actions
                 aws-region: ap-south-1
             - name: Terraform init
